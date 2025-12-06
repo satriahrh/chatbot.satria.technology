@@ -60,59 +60,6 @@ chatbot.satria.technology/
 - **Performance Optimized** - Fast loading, minimal dependencies
 - **SEO Optimized** - Meta tags, semantic HTML, proper headings
 
-## Setup & Deployment
-
-### Option 1: Deploy to GitHub Pages (Recommended)
-
-1. **Create a GitHub Repository**
-   ```bash
-   # Initialize git if not already done
-   git init
-
-   # Add all files
-   git add .
-
-   # Commit files
-   git commit -m "Initial commit: Landing page for chatbot.satria.technology"
-
-   # Add remote (replace with your GitHub username)
-   git remote add origin https://github.com/YOUR_USERNAME/chatbot-landing.git
-
-   # Push to GitHub
-   git push -u origin main
-   ```
-
-2. **Enable GitHub Pages**
-   - Go to repository Settings → Pages
-   - Source: Deploy from `main` branch
-   - Folder: `/ (root)`
-   - Click Save
-
-3. **Configure Custom Domain**
-   - The `CNAME` file is already created with `chatbot.satria.technology`
-   - In GitHub Pages settings, add custom domain: `chatbot.satria.technology`
-   - Wait for DNS check
-
-4. **Configure DNS**
-   - In your DNS provider (e.g., Cloudflare, GoDaddy), add a CNAME record:
-     - Type: `CNAME`
-     - Name: `chatbot`
-     - Value: `YOUR_USERNAME.github.io`
-     - TTL: `Auto` or `3600`
-   - Wait 5-30 minutes for DNS propagation
-
-5. **Enable HTTPS**
-   - In GitHub Pages settings, check "Enforce HTTPS"
-   - This is enabled automatically after domain verification
-
-### Option 2: Deploy to Other Hosting Providers
-
-The site is static HTML/CSS/JS, so it can be deployed to:
-- **Netlify** - Drag and drop the folder
-- **Vercel** - Connect GitHub repo
-- **Cloudflare Pages** - Connect GitHub repo
-- **AWS S3 + CloudFront** - Upload files to S3 bucket
-
 ## Configuration
 
 ### Add WhatsApp Contact Number
@@ -122,15 +69,6 @@ When ready, update the WhatsApp floating button:
 1. Uncomment the WhatsApp button in `index.html` (near the end, before `</body>`)
 2. Replace `62XXXXXXXXXXX` with your WhatsApp Business number (with country code, no + or spaces)
 3. The pre-filled message is already in Indonesian
-
-### Update Business Address
-
-Update the business address in:
-- `index.html` (Contact section)
-- `privacy.html` (Contact section)
-- `terms.html` (Contact section)
-
-Replace "Sleman, Daerah Istimewa Yogyakarta, Indonesia" with your actual registered business address.
 
 ### Add Logo and Images
 
