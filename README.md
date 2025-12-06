@@ -130,7 +130,7 @@ Update the business address in:
 - `privacy.html` (Contact section)
 - `terms.html` (Contact section)
 
-Replace "Tangerang, Banten, Indonesia" with your actual registered business address.
+Replace "Sleman, Daerah Istimewa Yogyakarta, Indonesia" with your actual registered business address.
 
 ### Add Logo and Images
 

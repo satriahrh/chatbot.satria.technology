@@ -537,7 +537,7 @@ https://chatbot.satria.technology
 
 📍 Alamat Kantor
 [Your registered business address]
-Tangerang, Banten, Indonesia
+Sleman, Daerah Istimewa Yogyakarta, Indonesia
 ```
 
 ### Contact Form Fields
