@@ -115,27 +115,6 @@ The site is static HTML/CSS/JS, so it can be deployed to:
 
 ## Configuration
 
-### Update Contact Form
-
-The contact form currently uses a placeholder Formspree URL. To activate:
-
-1. **Option A: Formspree (Easiest)**
-   - Sign up at https://formspree.io
-   - Create a new form
-   - Copy your form endpoint URL
-   - Update `index.html` line with `action="https://formspree.io/f/YOUR_FORM_ID"`
-
-2. **Option B: EmailJS**
-   - Sign up at https://www.emailjs.com
-   - Set up email service and template
-   - Add EmailJS library to `index.html`
-   - Update `js/main.js` to handle submission via EmailJS
-
-3. **Option C: Google Forms**
-   - Create a Google Form
-   - Embed it in the contact section
-   - Or use Google Forms API for custom styling
-
 ### Add WhatsApp Contact Number
 
 When ready, update the WhatsApp floating button:
