@@ -90,25 +90,6 @@ To replace placeholder images:
    <link rel="icon" type="image/png" href="images/favicon.png">
    ```
 
-### Add Google Analytics (Optional)
-
-To track visitors:
-
-1. Sign up for Google Analytics
-2. Get your tracking ID (GA4 measurement ID)
-3. Add to `<head>` in all HTML files:
-
-```html
-<!-- Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XXXXXXXXXX');
-</script>
-```
-
 ## Testing Checklist
 
 Before launching, verify:
